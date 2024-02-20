@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MailSender.css">
+</head>
+
+<body>
+    <h1>MAIL SENDER</h1>
+    <form id="form" method="post">
+        <label for="">
+            Title: <input type="text" name="title" id="" placeholder="Enter your Title">
+        </label>
+        <label for="">Full Name:
+            <input type="text" name="fullName" id="fullName" placeholder="Enter your First Name">
+        </label>
+        <label for="">Sender Email:
+            <input type="text" name="fullName" id="senderEmail" placeholder="Enter your Email">
+        </label>
+
+        <label for="">Content:
+            <textarea id=" content" name="content" cols="30" rows="10" placeholder="Enter mail content"></textarea>
+        </label>
+        <button type="submit" onclick="sendEmail()">Send Mail</button>
+    </form>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/task/mailSender.js"></script>
+</body>
+
+</html>
+
+

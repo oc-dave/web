@@ -1,0 +1,206 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navImg {
+  width: 40px;
+  height: 25px;
+  display: flex;
+  margin: 30px;
+  padding: 5px;
+  padding-left: 150px;
+}
+
+.navTop {
+  background-color: white;
+  display: flex;
+  column-gap: 350px;
+  
+}
+
+.headers {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
+
+#btn1 {
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  color: rgba(76, 175, 79, 1);
+  cursor: pointer;
+  margin: 30px;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+#btn2 {
+  font-size: 15px;
+  height: 80px;
+  width: 100px;
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.navBottom {
+  padding: 95px;
+  margin-left: 250px;
+  display: flex;
+  gap: 180px;
+}
+
+.bodyContent {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  color: rgba(77, 77, 77, 1);
+  letter-spacing: 2px;
+}
+
+.bodyContent1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  color: rgba(76, 175, 79, 1);
+  width: 657px;
+  height: 152px;
+}
+
+.bodyContent2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#rgstBtn {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  height: 60px;
+  width: 150px;
+  background-color: rgba(76, 175, 79, 1);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dot {
+  margin-left: 960px;
+  display: inline-flex;
+  gap: 6px;
+}
+
+.Sections {
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: rgba(77, 77, 77, 1);
+  text-align: center;
+}
+
+.Descriptions {
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  line-height: 16.706px;
+  margin-top: -70px;
+  letter-spacing: 2px;
+}
+
+.clientLogos {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 250px;
+}
+
+.community {
+  color: var(--neutral-d-grey, #4d4d4d);
+  color: var(--neutral-d-grey, #4d4d4d);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 550;
+  line-height: 40px; /* 122.222% */
+}
+
+.Question {
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 16.706px; /* 150% */
+  letter-spacing: 2px;
+}
+
+.Frames {
+  display: flex;
+  padding: 0px 80px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.membership {
+  display: flex;
+  width: 185.851px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch ;
+}
+
+.national {
+  display: flex;
+  width: 185.851px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+.clubs {
+  display: flex;
+  width: 185.851px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+.frameTitles {
+  color: var(--neutral-d-grey, #4d4d4d);
+  text-align: center;
+  font-size: 30px;
+  align-self: stretch;
+  font-weight: 700;
+}
+.framesDesc {
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+  margin-top: -15px;
+}

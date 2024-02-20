@@ -1,0 +1,22 @@
+#suggestions-container {
+    position: absolute;
+    display: none;
+    border: 1px solid #ccc;
+    max-height: 120px;
+    overflow-y: auto;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.suggestion img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: black;
+}
+
+section {
+  background-color: rgba(159, 238, 233, 1);
+  border-radius: 20px 20px 0 0;
+  padding-bottom: 580px;
+}
+
+nav {
+  margin-bottom: 8px;
+}
+
+img[src$="Dark.png"] {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+img[src$="Status Icons.png"] {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+img[src$="Close.png"] {
+  position: absolute;
+  top: 50px;
+  right: 12px;
+}
+
+img[src$="LOG IN.png"] {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img[src$="Username.png"] {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img[src$="Password.png"] {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+img[src$="image/â__Pngtreeâ__vector of orange juice special_7954087 2.png"] {
+  position: absolute;
+  top: 350px;
+  right: 0.5px;
+}
+
+img[src$="Login btn.png"] {
+  position: absolute;
+  top: 56.9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+img[src$="Forgot password_.png"] {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+img[src$="DONT HAVE AN ACCOUNT.png"] {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+img[src$="SIGNUP.png"] {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

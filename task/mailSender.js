@@ -1,9 +1,9 @@
-const fullName = document.getElementById("fullName");
-const title = document.getElementById("title");
-const sender = document.getElementById("senderEmail");
-const content = document.getElementById("content");
+function sendEmail() {
+    const fullName = document.getElementById("fullName").value;
+    const title = document.getElementById("title").value;
+    const senderEmail = document.getElementById("senderEmail").value;
+    const content = document.getElementById("content").value;
 
-function senderEmail() {
     Email.send({
         Host: "smtp.your-smtp-server.com",
         Username: "your-username",
@@ -16,6 +16,3 @@ function senderEmail() {
         alert("Mail sent successfully");
     });
 }
-
-
-
